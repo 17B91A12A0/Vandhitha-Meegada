@@ -1,0 +1,5 @@
+0--request not intialized----user interface
+1-         -------xmlhttprequest(js call)
+2-request intialized---severside systems
+3-process the request-----webserver
+4-ready to give the response----html &css data

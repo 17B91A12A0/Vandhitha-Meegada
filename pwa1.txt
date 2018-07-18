@@ -1,0 +1,47 @@
+git clone https://github.com/17B91A1275/madhuri75.git
+
+ls
+
+cd filename(madhuri75)
+
+open properties and click hidden and then ok (after select 2nd option-apply changes....)
+again open properties and unclick hidden and then ok
+
+ls
+
+touch index.html
+
+open atom and select folder madhuri75 in atom
+Type this in index.html
+<html>
+<head>
+ <title>webapps</title>
+</head>
+<body>
+  <h1>Madhuri75</h1>
+</body>
+</html>
+
+
+
+{//needed everytime when modified
+In bash type:git add --all
+
+git status
+
+git commit -m "addedfile"
+
+{git config --global user.email "madhuri.setti02@gmail.com"
+git config --global user.name "17B91A1275"}if necessary
+
+git commit -am "addindexfile"
+
+git log
+
+git push origin master
+
+repeat(git commit -am "addindexfile"
+git log
+git push origin master)
+after changing code in html
+}
